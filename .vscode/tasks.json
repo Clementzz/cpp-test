@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"id": "shell,/usr/bin/make build --file=/Users/clement/.vscode/extensions/franneck94.c-cpp-runner-1.4.1/templates/Makefile --directory=FILE_DIR COMPILATION_MODE=Debug EXECUTABLE_NAME=outDebug LANGUAGE_MODE=Cpp CPP_COMPILER=/usr/bin/clang++ ENABLE_WARNINGS=1 WARNINGS_AS_ERRORS=0 WARNINGS=\"-Wall -Wextra -Wpedantic\" INCLUDE_PATHS=\"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1\",",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"label": "C_Cpp_Runner: Build: C++",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
